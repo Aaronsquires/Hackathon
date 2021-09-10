@@ -1,0 +1,15 @@
+.header-container {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    height: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.header-item-2 {
+    font-weight: bold;
+}

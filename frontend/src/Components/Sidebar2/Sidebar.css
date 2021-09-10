@@ -1,0 +1,45 @@
+
+  .SidebarList {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .SidebarItems .a {
+    width: 100%;
+    height: 45px;
+    /* border-bottom: 1px solid deeppink; */
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: #1A4875;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .SidebarList .row:hover {
+    cursor: pointer;
+    background-color: #F5F5F5;
+    /* border-bottom: 5px solid #1A4875; */
+    color: #1A4875;
+  }
+  
+  .SidebarList #active {
+    background-color: #DEE0E3;
+    color: #2F6FFC;
+    /* border-left: 5px solid #2F6FFC; */
+    
+  }
+
+  .row #Sidebar-Item-Icon {
+    flex: 30%; 
+    display: grid;
+    place-items: center;
+  }
+  
+  .row #Sidebar-Item-Title {
+    flex: 70%;
+  }
+  
