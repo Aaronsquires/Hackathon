@@ -28,24 +28,18 @@ const useStyles = makeStyles((theme) => ({
 
 export default function DenseAppBar() {
   const classes = useStyles();
-  const username = localStorage.getItem('username');
 
-  function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-  }
  
   return (
     <div className={classes.root}>
       <AppBar position="fixed" className={classes.appbar}>
           <div className="header-container">
             <div className="header-item-1">
-              <TextButtons title="Logout" path={'/Logout'} className={classes.textButton}/>
             </div>
             <div className="header-item-2">
-              Clivnars Inventory Management
+              The AI Recruitment Bot              
             </div>
             <div className="header-item-3">
-              {capitalizeFirstLetter(username)}
             </div>
           </div>
       </AppBar>
